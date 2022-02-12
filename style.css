@@ -1,0 +1,76 @@
+body{
+	font-family: Overpass;
+	margin: 0;
+	color: #7F7F7F;
+}
+
+
+h1, h2, h3 {
+	font-family: "chivo";
+	color: #FD080D;
+}
+
+.banner {
+	background-image: url(./images/background.jpg);
+	padding:150px 0;
+	text-align: center;
+	background-position: center;
+	background-size: cover;
+}
+
+.banner h1{
+	color: white;
+	font-size: 45px;	
+}
+
+.banner p {
+	color: white;
+	font-size: 24px;	
+}
+
+.card-section-title {
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+.countainer {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	max-width: 1400px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.button-blue {
+	background-color: blue;
+	padding: 16px 28px;
+	border-radius: 5px;
+	text-decoration: none;
+	color: white;
+	font-weight: bolder;
+	transition: .3s;
+	display: inline-block;
+}
+
+.button-blue:hover {
+	color: #FD080D;
+}
+
+
+.card-white {
+	background-color: white;
+	width: 200px;
+}
+
+.card-white img {
+	width: 180px;
+	height: 190px;
+	object-fit: cover;
+	
+}
+
+.footer {
+	background: black;
+	padding: 50px;
+	text-align: center;
+}
